@@ -137,8 +137,7 @@
                                 <div class="text-xs text-gray-500">Deadline</div>
                                 <div class="font-medium">21 March 2025</div>
                             </div>
-                            <button
-                                class="bg-primary-blue text-white px-4 py-2 rounded-lg text-sm">Completed</button>
+                            <button class="bg-primary-blue text-white px-4 py-2 rounded-lg text-sm">Completed</button>
                         </div>
                     </div>
 
@@ -210,12 +209,13 @@
                         <img src="./assets/activity.png" alt="" srcset="">
                         <span class="font-semibold text-lg ml-4">Activity Log</span>
                     </div>
-                    <button class="bg-primary-blue text-white px-4 py-2 rounded-lg text-sm w-full">Clear
+                    <button id="clearHistory"
+                        class="bg-primary-blue text-white px-4 py-2 rounded-lg text-sm w-full">Clear
                         History</button>
                 </div>
 
 
-                <div class="space-y-6">
+                <div id="activityLog" class="space-y-6">
                     <div class="border-l-4 border-primary-blue pl-4 py-1">
                         <p class="text-gray-700">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
                     </div>
@@ -231,7 +231,8 @@
     <script src="./js/changeWindow.js"></script>
     <script src="./js/randomTheme.js"></script>
     <script src="./js/liveDate.js"></script>
-    <script src="./js/completebtn.js"></script>
+    <script src="./js/clearandcomplete.js"></script>
+    <script src="./js/clearhistory.js"></script>
 </body>
 
 </html>
